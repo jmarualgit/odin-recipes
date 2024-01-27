@@ -4,7 +4,6 @@ Following the [Odin Project's course](https://www.theodinproject.com/paths/found
 
 Coded purely in HTML.
 
-2024-01-26 
+2024-01-26; 2024-01-27
 ## Update: Adding CSS
-Progressing through the course and [this lesson](https://www.theodinproject.com/lessons/foundations-the-cascade) pushes forward and 
-instructs to add CSS throughout the website.
+Progressing through the lessons in this course and [to add basic font css](https://www.theodinproject.com/lessons/foundations-the-cascade) and to add [styling related to paddings and margins](https://www.theodinproject.com/lessons/foundations-block-and-inline).
