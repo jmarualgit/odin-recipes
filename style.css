@@ -1,6 +1,7 @@
 * {
-    font-family: 'Courier New', sans-serif;
-    background-color: #eee;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #e7e6f7;
+    margin: 0;
 }
 
 h1,
@@ -8,4 +9,43 @@ h3,
 h5,
 .image-block {
     text-align: center;
+}
+
+.image-block {
+    padding: 1em;
+}
+
+.title-section h1 {
+    margin: 0;
+    padding: 1em;
+    display: block;
+    background-color: #aea3b0; 
+}
+
+.section {
+    margin: 0;
+    padding: 20px;
+    background-color: #e3d0d8;
+}
+
+.section p,
+.section h3,
+.section h5, 
+.section ul,
+.section ol,
+.section ul li,
+.section ol li,
+.section ul li a,
+.section ol li a,
+.section h5 em,
+.section h5 em a {
+    background-color: inherit;
+}
+
+.section li {
+    padding: 10px;
+}
+
+.alt {
+    background-color: #e7e6f7;
 }
