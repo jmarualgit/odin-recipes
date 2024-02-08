@@ -10,4 +10,4 @@ Progressing through the lessons in this course and [to add basic font css](https
 
 ## Update: Implementing Flexbox
 #### 2024-02-07; 2024-02-08
-With [this culminating project about Flexbox](https://www.theodinproject.com/lessons/foundations-landing-page) from Odin group, I chose to instead build upon my already existing website instead of making a whole new project.
+With [this culminating project about Flexbox](https://www.theodinproject.com/lessons/foundations-landing-page) from Odin group, I chose to instead build upon my already existing website instead of making a whole new project. The goal was to make a responsive website that would shrink/grow according to the size of the window and also aligning everything as I saw fit to my design
