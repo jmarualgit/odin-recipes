@@ -3,20 +3,61 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Basic Recipe Website</title>
+        <title>Recipes!</title>
     </head>
 
     <body>
-        <div class="title-section">
+        <div class="header">
             <h1>Odin Recipes</h1>
-        </div>
-        
-        <div class="section">
-            <ul>
-                <li><a href="./recipes/skillet-chicken-bulgogi.html">Skillet Chicken Bulgogi</a></li>
-                <li><a href="./recipes/leche-flan.html">Leche Flan</a></li>
-                <li><a href="./recipes/matcha-pancakes.html">Matcha Pancakes</a></li>
+            <ul class="right-links">
+                <li><a href="">link one</a></li>
+                <li><a href="">link two</a></li>
+                <li><a href="">link three</a></li>
             </ul>
+        </div>
+
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1> Welcome! </h1>
+                <p> Here you will find recipes of various dishes! Feel free to look around!!</p>
+            </div>
+            <div class="image-placeholder">image placeholder</div>
+        </div>
+
+        <div class="recipes-container">
+            <a class="recipe-block" href="./recipes/skillet-chicken-bulgogi.html">
+                <img class="recipe-block-img" src="./images/skillet-chicken-bulgogi-image.jpg" alt="Picture of Skillet Chicken Bulgogi">
+                <h1>Skillet Chicken Bulgogi</h1>
+            </a>
+            <a class="recipe-block" href="./recipes/leche-flan.html">
+                <img class="recipe-block-img" src="./images/leche-flan-image.jpg" alt="Picture of Leche Flan">
+                <h1>Leche Flan</h1>
+            </a>
+            <a class="recipe-block" href="./recipes/matcha-pancakes.html">
+                <img class="recipe-block-img" src="./images/matcha-pancakes-image.jpg" alt="Picture of Matcha Pancakes">
+                <h1>Matcha Pancakes</h1>
+            </a>
+        </div>
+
+        <div class="quote-container">
+            <p><em>"Sometimes when you're hungry, you want food. And when you're thirsty, you probably want water."</em></p>
+            <h6 class="quote-artist">-jairel, website creator</h6>
+        </div>
+
+        <div class="signup-container">
+            <div class="signup-message-box">
+                <div class="signup-left_text">
+                    <h2>Sign Up Now!</h2>
+                    <p>Signup to be notified of new recipes tailored to your liking!</p>
+                </div>
+                <button class="signup-button">
+                    Sign up!
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h6>built off of odin project's example</h6>
         </div>
     </body>
 </html>
