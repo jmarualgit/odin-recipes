@@ -6,6 +6,29 @@
     list-style-type: none;
 }
 
+.header a:link,
+.header a:visited {
+    color: white;
+}
+
+.header a:hover {
+    color: #DDD;
+}
+
+.header a:active {
+    color: #AAA;
+}
+
+.recipes-container a:link,
+.recipes-container a:visited {
+    color: #444;
+}
+
+.recipes-container a:hover {
+    box-shadow: 3px 3px 10px #666;
+    color: #000;
+}
+
 .image-block {
     padding: 1em;
 }
